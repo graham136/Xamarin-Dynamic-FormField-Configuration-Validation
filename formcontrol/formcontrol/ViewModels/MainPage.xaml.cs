@@ -25,8 +25,8 @@ namespace formcontrol
             monkeyList.Add("Intervention 3");
 
             var EntryList = new List<EntryControl>();
-            EntryList.Add(new EntryControl("BranchOffice", "BranchOfficeId", "Picker","BranchOffice", "","BanchOffice","Field is required", "Required",true));
-            EntryList.Add(new EntryControl("CumstomsControlArea", "CumstomsControlAreaId","Picker","CumstomsControlArea", "","CumstomsControlArea", "Field is required", "Required",true));
+            EntryList.Add(new EntryControl("Office", "OfficeId", "Picker","Office", "","Office","Field is required", "Required",true));
+            EntryList.Add(new EntryControl("ControlArea", "ControlAreaId","Picker","ControlArea", "","ControlArea", "Field is required", "Required",true));
             EntryList.Add(new EntryControl("Location", "LocationId", "Entry","Location", "","Location","Field is required", "Required",true));
             
             foreach(EntryControl item in EntryList)
