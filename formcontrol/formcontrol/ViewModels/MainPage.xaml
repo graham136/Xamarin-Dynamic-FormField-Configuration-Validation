@@ -54,10 +54,10 @@
                                ErrorMessageText="Error2"
                                ErrorType="Required"
                                WidthRequest="300" />
-            <custom:EntryField TitleText="Sid"
-                               PlaceHolderText="Sid"
+            <custom:EntryField TitleText="id"
+                               PlaceHolderText="id"
                                ErrorMessageText="Error3"
-                               ErrorType="Sid"
+                               ErrorType="id"
                                WidthRequest="300" />
             <custom:PickerField TitleText="Picker Title"
                                 ErrorMessageText="Error4"
