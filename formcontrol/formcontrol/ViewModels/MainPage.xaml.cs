@@ -19,10 +19,10 @@ namespace formcontrol
 
             // Setup the dynamic formfield configuration
             InitializeComponent();
-            var monkeyList = new List<string>();
-            monkeyList.Add("Intervention 1");
-            monkeyList.Add("Intervention 2");
-            monkeyList.Add("Intervention 3");
+            var onkeyList = new List<string>();
+            onkeyList.Add("Intervention 1");
+            onkeyList.Add("Intervention 2");
+            onkeyList.Add("Intervention 3");
 
             var EntryList = new List<EntryControl>();
             EntryList.Add(new EntryControl("Office", "OfficeId", "Picker","Office", "","Office","Field is required", "Required",true));
