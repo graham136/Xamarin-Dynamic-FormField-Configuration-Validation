@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="formcontrol.Views.PickerField">
+
+    <StackLayout>
+        <Label x:Name="title"
+               TextColor="#015c95"
+               FontSize="Small"
+               Text="Label Text"
+               HorizontalOptions="StartAndExpand" 
+               />
+        <Picker x:Name="picker"
+                ItemsSource="{Binding tempList}"
+                >
+           
+        </Picker>
+        <Label x:Name="errorMessageLabel"
+               TextColor="Red"
+               FontSize="Small"
+               Text="{Binding DisplayError}"
+               IsVisible="{Binding DisplayError}"
+               HorizontalOptions="StartAndExpand" />
+    </StackLayout>
+</ContentView>
